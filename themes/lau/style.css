@@ -77,4 +77,14 @@ ul.menu li{
       filter:grayscale(0)
   
   }
+#pie{
+    background: aliceblue;
+    border: 10px dotted #475fad;
+    border-radius: 20px;
+    filter:sepia(1);
+    transition:.7s;
+}
+#pie:hover{
+    filter:sepia(0);
+}
   

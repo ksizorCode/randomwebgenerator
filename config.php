@@ -2,7 +2,6 @@
 //Listado de todas las carpetas que están dentro de themes
 $casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua'];
 
-
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
 function random(){
     global $casos;
@@ -14,6 +13,7 @@ function random(){
 
 
 //Cargar elementos via include
+// insertar('header');
 function insertar($v){
     global $casos ;
     switch ($v) {

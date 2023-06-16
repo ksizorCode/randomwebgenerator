@@ -5,7 +5,7 @@
 
 $dato =[
     'lang'=>'es-ES',
-    'webtitulo'=>"Mundocine",
+    'webtitulo'=>"Fotogramas",
     'titulo'=>"Batman regresa en la última peli de Flash",
     'subtitulo'=>'La última película del estudio Warner Broders promete una buena dosis de nostalgia a los fans del comic de DC.',
     'txt1'=>'Han pasado más de 34 años desde que Tim Burton estrenó la primera adaptación cinematográfica del super heroe de la negra capa. ',
@@ -19,7 +19,7 @@ $dato =[
     'img2'=>'002.jpg',
     'img3'=>'003.jpg',
     'menu'=>[
-            ['Inicio','index.php',0],
+            ['Home','index.php',0],
             ['Películas','peliculas.php',0],
             ['Cartelera','cartelera.php',0],
             ['facebook','https://facebook.com',1]

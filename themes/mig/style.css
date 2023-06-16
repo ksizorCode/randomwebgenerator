@@ -63,3 +63,8 @@ main{
     grid-template-columns: 60% 30%;
     gap:5%;
 }
+
+p{
+    text-align: justify;
+    hyphens: auto;
+}

@@ -1,22 +1,18 @@
 <!-- miguel -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?lang();?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo de apartado - Titulo de la web</title>
+    <title><?titulo();?> | <?webtitulo();?></title>
 
 </head>
 <body>
 
 <header>
-    <h1>Titulo de la web</h1>
-<h2>Subtítulo o eslogan</h2>
-
+    <h1><?webtitulo();?></h1>
 <nav>
-    <ul>
-        <li><a href="index.php">Inicio</a></li>
-    </ul>
+    <? menu();?>
 </nav>
 </header>
 <main>

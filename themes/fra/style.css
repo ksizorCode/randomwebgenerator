@@ -1,7 +1,9 @@
+/* Fran */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
-    --c: greenyellow;
+    --c: blueviolet;
     --ff:'Montserrat', sans-serif;
 }
 
@@ -12,6 +14,11 @@ body{
     min-width: 300px;
     margin-inline: auto;
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:mymove 4s infinite ;
+
+    
 }
 
 header, main, footer{
@@ -32,9 +39,13 @@ header nav ul{
 img{
     max-width: 100%;
     border-radius:20px;
-    box-shadow: 10px 10px 10px grey
+    box-shadow: 10px 10px 10px grey;
+    animation: aparicion 2s;
+    
 }
-
+img{
+    scale:0.
+}
 
 a{
     text-decoration: none;
@@ -98,3 +109,29 @@ nav ul li a:hover {
     text-align: center;
     color: blueviolet;
 }
+form{
+    border:10px double red;
+}
+form:hover{
+  scale:1.5;
+  translate:10px ;
+}
+input{
+    color: rgb(202, 152, 110);
+    background: rgb(43, 5, 13);
+    border-radius: 20px;
+}
+@keyframes {
+    from{ }
+    to{}
+}
+@keyframes mymove {
+     0%{background-image:url("https://www.eltiempo.com/files/og_paste_img/uploads/2022/11/22/637d7161378f8.jpeg");} 
+    25%{
+        background-image:url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2015/01/avion.jpg?fit=1200%2C750&quality=50&strip=all&ssl=1")
+    }
+    50%{background-image:url("https://cdn.aarp.net/content/dam/aarp/travel/travel_tips/2021/08/1140-airplane-in-the-sky-esp.jpg");}
+    75%{backgroundo-image:url("https://www.shutterstock.com/image-photo/commercial-airplane-jetliner-flying-above-260nw-1371617348.jpg");}
+    100%{background-image:url("https://st4.depositphotos.com/1005844/20061/i/450/depositphotos_200614762-stock-photo-plane-flying-on-night-sky.jpg")}
+   
+  }

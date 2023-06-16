@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --c: greenyellow;
+    --ff:'Montserrat', sans-serif;
+}
+
+body{
+    font-family: var(--ff);
+    background: var(--c);
+    max-width: 900px;
+    min-width: 300px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+header, main, footer{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+header nav ul{
+    list-style: none;
+    padding-left:0 ;
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    flex-wrap: wrap;
+}
+img{
+    max-width: 100%;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px grey
+}
+
+
+a{
+    text-decoration: none;
+    color:var(--c)
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+button, .btn{
+    text-align: center;
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    background:none;
+    border: var(--c) 1px solid;
+    color: var(--c);
+}
+
+button:hover, .btn:hover,
+button.selected, .btn.selected{
+    background: var(--c);
+    color:white;
+    cursor:pointer;
+
+}
+
+button.unactive, button.disable,
+.btn.unactive, .btn.disable,
+button.unactive:hover, button.disable:hover,
+.btn.unactive:hover, .btn.disable:hover{
+    cursor:not-allowed;
+    color:grey;
+    border: grey solid 1px;
+    background: none;
+    opacity:0.6;
+}
+
+
+
+pre{
+    background:#EEE;
+    padding:20px;
+    border-radius:20px;
+    border: solid #888 1px;
+}
+
+ nav ul li:hover {
+    background: greenyellow;
+    scale: 1.5;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    color: blueviolet;
+}

@@ -26,11 +26,4 @@ aside {
     font-style: italic;
     background-color: lightgray;
   }
-  ul.menu{
-      display:flex;
-      justify-content:space-around;
-      background-image: linear-gradient(var(--l2));
-  }
-  ul.menu li{
-      list-style: none;
-  }
+  

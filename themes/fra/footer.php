@@ -1,2 +1,2 @@
-<p>esto es el footer</p>
+<p>copyright 2023</p>
 <!-- Fran -->

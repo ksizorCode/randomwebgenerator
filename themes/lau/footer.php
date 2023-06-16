@@ -1,4 +1,8 @@
-</main>
-  <footer></footer>  
+
+  <footer>
+    
+  <?php echo date('Y')?>
+  </footer>  
 </body>
 </html>
+<!-- laura -->

@@ -13,8 +13,9 @@ if(isset($_GET['nombre'])){
 
 ?>
 
+<a href="index.php">Volver a random theme</a>
 <form action="ver.php" method="get">
-      <select name="nombre" id="nombre">
+    <select name="nombre" id="nombre">
         <option>Seleccione un theme</option>
         <? foreach($casos as $caso){
             echo '<option name="'.$caso.'">';
@@ -40,4 +41,3 @@ if(isset($_GET['nombre'])){
 
 <? include 'themes/'.$nombre.'/footer.php';?>
 <link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">
-

@@ -13,8 +13,12 @@
     <div>
     <h2><? el_titulo(); ?></h2>
     <nav>
-    <? menuBuilder(); ?>
-</nav>
+    <li><a href="index.php">Inicio</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Productos</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Redes sociales</a></li>
+    </nav>
 </div>
 <img src="https://chpic.su/_data/stickers/c/ComeToTheDarkSide/ComeToTheDarkSide_030.webp" alt="">
 </header>

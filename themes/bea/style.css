@@ -2,11 +2,35 @@
     background: #fee5c7;
 }
 
-.header{
+body {
+    font-family: sans-serif;
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background:#FFFACD;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
+    grid-gap: 20px;
+    gap: 40px;
+  }
+  li {
+    background: #eee8aa;
+    text-align:center;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); 
+  }
+  li:hover {
+    scale: 1.4;
+    overflow: hidden;
+    background:#B0E0E6;
+  }
 aside {
     border: 1px solid #ccc;
     padding: 10px;

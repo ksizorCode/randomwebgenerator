@@ -6,7 +6,7 @@ $casos =['ric','fra','ale','jes','lau','bea','aug','mig'];
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
 function random(){
     global $casos;
-    $numElementos = count($casos);
+    $numElementos = count($casos)-1;
 
     return rand(0,$numElementos);
 }
@@ -36,4 +36,5 @@ function insertar($v){
     }
 }
     ?>
+
 

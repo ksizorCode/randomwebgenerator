@@ -21,7 +21,15 @@
             <li><a href="Contacto.php">Contacto</a></li>
         </ul>
     </nav>
-
-
+<style>
+    ul.menu{
+      display:flex;
+      justify-content:space-around;
+      background-image: linear-gradient(var(--l2));
+  }
+  ul.menu li{
+      list-style: none;
+  }
+<style>
   </header>
   

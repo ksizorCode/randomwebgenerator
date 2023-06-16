@@ -13,7 +13,7 @@
             <ul>
                 <li>Home</li>
                 <li>Nosotros</li>
-                <li>Nuestros preoductos</li>
+                <li>Nuestros productos</li>
                 <li>Contacto</li>
             </ul>
         </nav>

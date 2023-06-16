@@ -1,2 +1,2 @@
-<p>copyright 2023</p>
+<p>&copy - copyright <?php echo date ('Y') ?></p>
 <!-- Fran -->

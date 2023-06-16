@@ -10,14 +10,26 @@ body{
     list-style: none;
     }
     
-    header, main, footer{
-        background: white;
+   main, footer{
+        background:rgb(203, 201, 201);
         padding: 20px;
         border-radius: 20px;
         margin-top: 20px;
         list-style: none;
+        font-family: sans-serif;
+        font-weight: bold;
+         line-height: 1.5;
+          
+          
     }
     header{
+        background:rgb(203, 201, 201);
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 20px;
+        list-style: none;
+        font-family: sans-serif;
+        font-weight: bold;
         height: 250px;
         background-image: url("https://images.unsplash.com/photo-1682686579688-c2ba945eda0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
         background-repeat:no-repeat;
@@ -56,4 +68,6 @@ body{
     }
     img{
         max-width: 100%;
+        border-radius: 20px;
+        border-image: space;
     }

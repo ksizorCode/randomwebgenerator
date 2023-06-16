@@ -19,7 +19,7 @@ body{
 a{
     text-decoration: none;
 }
-/*img{
+img{
     max-width:100%;
     border:10px dashed var(--c2);
     border-radius:10px;
@@ -27,7 +27,7 @@ a{
 }
 img:hover{
     scale:2;
-}*/
+}
 aside {
     width: 30%;
     padding-left: 15px;
@@ -46,12 +46,11 @@ aside {
 ul.menu li{
     list-style: none;
 }
+ button{
+    background: var(--l2);
+    color:var(--c2);
+ }
 
-
-
-
-
-  
   #mascara{
     overflow:hidden;
     object-fit: cover;

@@ -1,16 +1,21 @@
 <? 
 if(isset($_GET['nombre'])){
-    $nombre = $_GET['nombre'];
+    $theme = $_GET['nombre'];
 }
 ?>
 
 <? require 'config.php'; ?>
-<? contenido('mig');?>
+<?
+//Carga aleatoria de contenido
+/*
+echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
+include 'themes/'.$theme.'/_content.php';*/
+?>
 
 
 
 
-<link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">
+<link rel="stylesheet" href="<? echo 'themes/'.$theme.'/style.css?v='.date('U');?>">
 
 
 <a href="index.php">Volver a random theme</a>
@@ -33,12 +38,12 @@ if(isset($_GET['nombre'])){
 
 
 
-<? include 'themes/'.$nombre.'/header.php';?>
+<? include 'themes/'.$theme.'/header.php';?>
 
 
 
-<? include 'themes/'.$nombre.'/main.php';?>
+<? include 'themes/'.$theme.'/main.php';?>
 
-<? include 'themes/'.$nombre.'/footer.php';?>
+<? include 'themes/'.$theme.'/footer.php';?>
 <!-- inserción forzada de CSS -->
-<link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">
+<link rel="stylesheet" href="<? echo 'themes/'.$theme.'/style.css?v='.date('U');?>">

@@ -36,6 +36,6 @@
   ul.menu li{
       list-style: none;
   }
-<style>
+</style>
   </header>
   

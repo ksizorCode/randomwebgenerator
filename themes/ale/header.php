@@ -1,3 +1,5 @@
+<!-- alejandro  -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +8,8 @@
 </head>
 <body>
     <header>
-        <!-- Aqu� puedes colocar el contenido del encabezado de tu p�gina -->
-        <h1>Encabezado de la p�gina</h1>
+        <!-- Aquiva el contenido del encabezado  -->
+        <h1>este es el header</h1>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>

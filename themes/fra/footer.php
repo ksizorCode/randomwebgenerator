@@ -1,1 +1,2 @@
-<p>esto es el footer</p> 
+<p>esto es el footer</p>
+<!-- Fran -->

@@ -1,6 +1,6 @@
 <header>
 <h1>titulo</h1>
-<img src="img/" alt="">
+<img src="img/logo.jpg" alt="">
 </header>
 <h2>subtitulo</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt unde soluta, porro sed dicta temporibus quis perferendis praesentium dolorum labore incidunt aperiam saepe culpa nobis modi facere dolorem atque quasi?</p>

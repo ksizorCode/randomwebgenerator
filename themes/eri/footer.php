@@ -1,4 +1,3 @@
-<p id="countDown"></p>
 
 </main>
 <footer>

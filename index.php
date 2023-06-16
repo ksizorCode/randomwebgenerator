@@ -1,4 +1,6 @@
+<? $theme = 'mig'; ?>
 <? require 'config.php';?>
+
 <? insertar('header');?>
 <? insertar('style');?>
 <? insertar('main');?>

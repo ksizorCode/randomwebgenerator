@@ -1,17 +1,17 @@
-<? require 'config.php'; ?>
-
-
-
-
-
 <? 
-
-
 if(isset($_GET['nombre'])){
     $nombre = $_GET['nombre'];
 }
-
 ?>
+
+<? require 'config.php'; ?>
+<? contenido('mig');?>
+
+
+
+
+<link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">
+
 
 <a href="index.php">Volver a random theme</a>
 <form action="ver.php" method="get">
@@ -40,4 +40,5 @@ if(isset($_GET['nombre'])){
 <? include 'themes/'.$nombre.'/main.php';?>
 
 <? include 'themes/'.$nombre.'/footer.php';?>
+<!-- inserción forzada de CSS -->
 <link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">

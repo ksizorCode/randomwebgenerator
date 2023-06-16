@@ -1,6 +1,8 @@
 <?
 //Listado de todas las carpetas que están dentro de themes
-$casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua'];
+$casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua','fer','dav','dan'];
+
+
 
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
 function random(){
@@ -9,6 +11,19 @@ function random(){
 
     return rand(0,$numElementos);
 }
+
+
+//Devuelve un nombre de Theme aleatorio de la lista de arriba
+function randomTheme(){
+    global $casos;
+    return $casos[random()];
+}
+
+//Carga aleatoria de contenido
+$theme = $casos[random()];
+echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
+include 'themes/'.$theme.'/_content.php';
+
 
 
 
@@ -75,8 +90,9 @@ function menu(){
 
 
 
-//Cargar los datos del theme de mig - hasta que el resto de los alumnos mentan los suyos propios
-include 'themes/mig/_content.php';
+
+
+
 
 function webtitulo(){
     global $dato;
@@ -121,22 +137,6 @@ function ruta_a_theme(){
 
 
 /******************* POR SI ALGUIEN USASE EL SISTEMA ANTIUGO DEL OTRO DÍA ******************** */
-
-
-$lang ="es-ES";         // Define el idioma para el HTML lang
-$separador="|";                         // Separador para titulo de apartado | web
-$miColor="tan";                         // Color principal.
-$miFuente="Arial, sans-serif";          // Tipografía principal.
-
-// Elementos del menú de la web..
-$miMenu = [
-    ['Inicio','index.php','0','Página de Inicio','ini'],
-    ['Servicios','servicios.php','0','Página de Inicio','ser'],
-    ['Productos','productos.php','0','Página de Inicio','pro'],
-    ['Contacto','contacto.php','0','Página de Inicio','cnt'],
-    ['Facebook','https://facebook.com','1','Página de Facebook','fb']
-];
-
 
 
 /* * * * * * * * * * FUNCIONES * * * * * * * * * * */
@@ -184,5 +184,30 @@ mainColor();
 function finFooter(){
 }
 
-//Carga idioma en la etiqueta lang del HTML
 
+
+
+
+
+//Cargar los datos del theme de mig - hasta que el resto de los alumnos mentan los suyos propios
+//include 'themes/mig/_content.php';
+
+
+
+function contenido($v){
+    include 'themes/mig/_content.php';
+
+  /*  global $casos;
+    if((strlen(''.$v)>0)){
+        include 'themes/'.$v.'/_content.php';
+    }
+    else{
+       // include 'themes/'.$casos[random()].'/_content.php';
+       include 'themes/mig/_content.php';
+        } 
+        */
+         
+}
+
+
+contenido('mig');

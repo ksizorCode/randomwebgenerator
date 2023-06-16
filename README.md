@@ -6,8 +6,8 @@ Random web generator
 Recuerda que para insertar un fragmento de código php en el htmo tendrás que escribir algo tipo 
 ''' <? e('lang ')?>
 
-|---|---|---|
 | opcion 1      | opción 2          |   explicación                 |
+|---------------|-------------------|-------------------------------|
 |lang();        |  e('lang');       |   Idioma de la página (es-ES) |
 |titulo();      |  e('titulo');     |   Título de la página         |
 |webtitulo();   |  e('webtitulo');  |   Título de la web o site     |
@@ -19,7 +19,7 @@ Recuerda que para insertar un fragmento de código php en el htmo tendrás que e
 
 ### para cartar el style.css de forma aleatoria inserta esto en link del css
 
-````<? insertar('style');?>
+<? insertar('style');?>
 
 
 ## Etiquetas HTML

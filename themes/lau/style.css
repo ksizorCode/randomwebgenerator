@@ -3,20 +3,25 @@
     --l2:rgb(222, 156, 244);
     --l3:rgb(163, 211, 217);
     --c1:rgb(90, 14, 90);
-    --c2:blue;
+    --c2:rgb(108, 108, 169);
     --c3:black;
 }
 body{
     max-height: 960px;
-    background-image: linear-gradient(30deg,var(--l2),var(--l1),var(--c2));
+    background-image: linear-gradient(30deg,var(--l2),var(--l1),var(--c2),var(--l1),var(--c1));
     text-align: center;
     min-height: 100vh;
+    max-height:100vh;
 }
 a{
     text-decoration: none;
 }
 img{
     max-width:100%;
+    border:2px dashed var(--c2);
+}
+img:hover{
+    scale:2;
 }
 aside {
     width: 30%;

@@ -1,2 +1,2 @@
 <!-- Fran -->
-<p>Esto es el main</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sequi accusantium quae asperiores magnam adipisci ipsam fuga est blanditiis reiciendis. Dolore porro quo officia minima voluptas illo officiis totam quisquam.</p>

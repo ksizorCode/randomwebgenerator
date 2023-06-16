@@ -1,14 +1,45 @@
+:root{
+    --c1:coral;
+    --c2:orange;
+    --c3:green;
+    --c:var(--c1);
+
+    --ff:'sans-serif';
+    --m:20px;
+    --mxw:960px;
+    --bdrs:10px;
+}
+
+
 body{
-background: coral;
-font-family: sans-serif;
-padding: 20px;
-max-width:960px;
+background: var(--c1);
+font-family: var(--ff);
+padding: var(--m);
+max-width:var(--mxw);
 margin-inline:auto;
 }
 
 header, main, footer{
     background: white;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
+    padding: var(--m);
+    border-radius: var(--bdrs);
+    margin-top: var(--m);
+}
+
+img{
+    max-width: 100%;
+    border-radius:var(--m);
+}
+
+nav ul{
+    display: flex;
+    gap:10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }

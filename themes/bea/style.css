@@ -1,3 +1,12 @@
+*{
+    background: #fee5c7;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 aside {
     border: 1px solid #ccc;
     padding: 10px;

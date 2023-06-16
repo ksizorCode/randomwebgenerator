@@ -306,3 +306,17 @@ footer{
   animation: typing6 8s infinite;
 }
 
+
+
+.section1, .section2{
+  display:flex;
+}
+.section1 img{
+  max-width:40%;
+}
+.section2 img{
+  max-width:45%;
+}
+.section2{
+justify-content: center;
+}

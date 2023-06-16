@@ -1,9 +1,11 @@
 body{
-    background: coral;
+    background: tan;
     font-family: sans-serif;
     padding: 20px;
     max-width:960px;
     margin-inline:auto;
+    text-align: center;
+    list-style: none;
     }
     
     header, main, footer{
@@ -11,4 +13,8 @@ body{
         padding: 20px;
         border-radius: 20px;
         margin-top: 20px;
+        list-style: none;
+    }
+    img{
+        max-width: 100%;
     }

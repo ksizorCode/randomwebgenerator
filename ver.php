@@ -7,8 +7,9 @@ if(isset($_GET['nombre'])){
 <? require 'config.php'; ?>
 <?
 //Carga aleatoria de contenido
+/*
 echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
-include 'themes/'.$theme.'/_content.php';
+include 'themes/'.$theme.'/_content.php';*/
 ?>
 
 

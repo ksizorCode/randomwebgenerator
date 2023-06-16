@@ -10,6 +10,8 @@
 <body>
   <header>
     <nav>
+   
+
         <img src="" alt="">
         <ul class="menu">
             <li><a href="Inicio.php">Inicio</a></li>
@@ -19,5 +21,20 @@
             <li><a href="Contacto.php">Contacto</a></li>
         </ul>
     </nav>
+    <style>
+    aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+</style>
+
+<aside>
+<p>Life is wonderfully, even though you can face lots of setbacks, you have to admit it is worth it</p>
+</aside>
   </header>
   

@@ -14,7 +14,7 @@
     <p>developed by Eric Galindo</p>
     </div>
   </div>
-  <a href="index.php"><? el_titulo(); ?></a>
+  <a href="index.php">Dark Theme</a>
 </footer>
 
 </body>

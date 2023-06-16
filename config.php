@@ -37,6 +37,11 @@ function insertar($v){
             break;
     }
 }
+<<<<<<< HEAD
+    ?>
+
+
+=======
 
 
 // IMPORTANCIÓN DE CONTENIDO
@@ -95,3 +100,4 @@ function img3(){
 
     ?>
 
+>>>>>>> 169a702ed219e833b9f83d125fefcb5a0bec197c

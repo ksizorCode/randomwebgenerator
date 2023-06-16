@@ -33,7 +33,7 @@ En resumen, el deporte tiene un impacto positivo en la salud y el bienestar gene
     <p>
         El mountain bike, también conocido como ciclismo de montaña, es una disciplina deportiva que consiste en recorrer senderos y terrenos naturales en bicicleta. Es una actividad emocionante que combina el ciclismo con el desafío de superar obstáculos naturales como colinas, rocas, raíces y descensos empinados. El mountain bike requiere habilidades técnicas, equilibrio y resistencia física. Es una forma de conectar con la naturaleza, explorar paisajes naturales y disfrutar de la adrenalina de descender por caminos sinuosos. Es una excelente manera de mantenerse activo, superar límites personales y disfrutar del aire libre.</p><br>
     <li><a href="#">Motocilismo</a></li><br>
-    <img src="https://www.todocircuito.com/ckfinder/userfiles/images/niccolo-canepa-6556.jpg" alt="">
+    <img src="https://www.todocircuito.com/ckfinder/userfiles/images/niccolo-canepa-6556.jpg" alt=""><br>
     <p>
         El motociclismo en superbike es una forma emocionante de carreras de motocicletas de alto rendimiento en circuitos cerrados. Los pilotos compiten en motos de gran potencia y velocidad, realizando maniobras arriesgadas y alcanzando velocidades impresionantes. Requiere habilidades técnicas excepcionales, reflejos rápidos y valentía. Las carreras de superbike son un espectáculo lleno de acción y adrenalina, donde los pilotos luchan por la victoria en emocionantes batallas en la pista. Es un deporte que cautiva a los amantes de las motos y ofrece una experiencia única tanto para los competidores como para los espectadores.</p><br>
 

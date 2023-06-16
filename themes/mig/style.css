@@ -1,10 +1,13 @@
+/* Miguel CSS*/
+
+
 :root{
     --c1:coral;
     --c2:orange;
     --c3:green;
     --c:var(--c1);
 
-    --ff:'sans-serif';
+    --ff:sans-serif;
     --m:20px;
     --mxw:960px;
     --bdrs:10px;
@@ -26,20 +29,42 @@ header, main, footer{
     margin-top: var(--m);
 }
 
+
+h1{
+    color:var(--c2);
+}
+
+
 img{
     max-width: 100%;
     border-radius:var(--m);
 }
 
 nav ul{
+    list-style:none;
+    padding-left:0;
     display: flex;
     gap:10px;
 }
 
 a{
     text-decoration: none;
+    color:var(--c1);
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+
+
+main{
+    display:grid;
+    grid-template-columns: 60% 30%;
+    gap:5%;
+}
+
+p{
+    text-align: justify;
+    hyphens: auto;
 }

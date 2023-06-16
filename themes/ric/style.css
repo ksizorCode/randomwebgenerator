@@ -52,3 +52,6 @@ body{
         display: flex;
         justify-content: flex-end;
     }
+    img{
+        max-width: 100%;
+    }

@@ -1,3 +1,11 @@
+:root{
+    --l1:white;
+    --l2:red;
+    --l3:var(--l1)
+    --c1:red;
+    --c2:blue;
+    --c3:black;
+}
 body{
     max-height: 960px;
     background: rgb(218, 164, 164);

@@ -1,10 +1,14 @@
-<? require 'config.php'; ?>
-
 <? 
 if(isset($_GET['nombre'])){
     $nombre = $_GET['nombre'];
 }
 ?>
+
+<? require 'config.php'; ?>
+<? contenido('mig');?>
+
+
+
 
 <link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">
 

@@ -4,6 +4,7 @@ $casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua','fer','dav'
 
 
 
+
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
 function random(){
     global $casos;
@@ -20,7 +21,7 @@ function randomTheme(){
 }
 
 //Carga aleatoria de contenido
-$theme = $casos[random()];
+//$theme = $casos[random()];
 echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
 include 'themes/'.$theme.'/_content.php';
 

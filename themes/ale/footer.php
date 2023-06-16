@@ -1,9 +1,7 @@
-    <!-- alejandro  -->
-    
-    </main>
-    <footer>
-        <!-- contenido del footer -->
-        <p>&copy;2023Aletheme</p>
+<footer>
+        <div class="footer-content">
+            <p>Todos los derechos reservados &copy; <?php echo date('Y'); ?></p>
+        </div>
     </footer>
 </body>
 </html>

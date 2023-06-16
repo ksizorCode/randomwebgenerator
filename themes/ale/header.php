@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>lo que quiera</title>
+    <title>lo que quiera dice miguel</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>

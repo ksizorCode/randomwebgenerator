@@ -10,13 +10,9 @@
 <body>
 
 <header>
-    <h1><?titulo();?></h1>
-<h2><?subtitulo();?></h2>
-
+    <h1><?webtitulo();?></h1>
 <nav>
-    <ul>
-        <li><a href="index.php">Inicio</a></li>
-    </ul>
+    <? menu();?>
 </nav>
 </header>
 <main>

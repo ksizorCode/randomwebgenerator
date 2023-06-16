@@ -33,10 +33,11 @@ if(isset($_GET['nombre'])){
 
 
 <? include 'themes/'.$nombre.'/header.php';?>
-<style>
-<? include 'themes/'.$nombre.'/style.css';?>
-</style>
+
+
+
 <? include 'themes/'.$nombre.'/main.php';?>
 
 <? include 'themes/'.$nombre.'/footer.php';?>
+<link rel="stylesheet" href="<? echo 'themes/'.$nombre.'/style.css?v='.date('U');?>">
 

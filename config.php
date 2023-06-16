@@ -47,6 +47,34 @@ function insertar($v){
 }
 
 
+
+
+function menu(){
+    global $dato;
+
+
+    echo '<ul class="menu">';
+    foreach($dato['menu'] as $e){
+        echo '<li>';
+        echo '<a href="'.$e[1].'"';
+
+        if($e[2]){
+            echo 'target="_blank" ';
+        }
+
+        echo '>'.$e[0].'</a>';
+        echo '</li>';
+
+    }
+    echo '</ul>';
+
+    
+}
+
+
+
+
+
 //Cargar los datos del theme de mig - hasta que el resto de los alumnos mentan los suyos propios
 include 'themes/mig/_content.php';
 
@@ -137,28 +165,7 @@ function apartadoyTitulo(){
     echo $titulos;
 }
 
-//Constructor de Menú
-function menuBuilder(){
-    global $miMenu;
-
-
-
-    echo '<ul class="menu">';
-    foreach($miMenu as $e){
-        echo '<li>';
-        echo '<a href="'.$e[1].'" class="'.$e[4].'" ';
-
-        if($e[2]){
-            echo 'target="_blank" ';
-        }
-
-        echo '>'.$e[0].'</a>';
-        echo '</li>';
-
-    }
-    echo '</ul>';
-
-}
+function menuBuilder(){     menu(); }
 
 
 //Cargar Color y Fuente principal

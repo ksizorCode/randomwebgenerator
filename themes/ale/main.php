@@ -1,28 +1,27 @@
-<?php include 'header.php'; ?>
 
-    <!-- Aquí puedes colocar el contenido del cuerpo principal de tu página -->
+
+    <!--  contenido del cuerpo principal  -->
     <section>
         <?php
-        // Función para mostrar el título
+        // Funciun para mostrar el titulo
         function mostrarTitulo($titulo) {
             echo "<h2>$titulo</h2>";
         }
 
-        // Función para mostrar el artículo
+        // Funcion para mostrar el articulo
         function mostrarArticulo($articulo) {
             echo "<article>$articulo</article>";
         }
 
-        // Función para mostrar la imagen
+        // Funcion para mostrar la imagen
         function mostrarImagen($url, $descripcion) {
             echo "<img src='$url' alt='$descripcion'>";
         }
 
         // Llamar a las funciones
-        mostrarTitulo("Título del artículo");
-        mostrarArticulo("Contenido del artículo");
-        mostrarImagen("ruta/imagen.jpg", "Descripción de la imagen");
+        mostrarTitulo("La programaciÃ³n con Miguel Esteban");
+        mostrarArticulo("Temario");
+        mostrarImagen("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS71cyWwe8YkoDW687pPh1YMGw9xTg8ZqM-30-cMko&s", "Descripciin de la imagen");
         ?>
     </section>
 
-<?php include 'footer.php'; ?>

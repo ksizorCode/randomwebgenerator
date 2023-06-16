@@ -1,4 +1,5 @@
 <!-- Augusto Lunar -->
+</main>
 <footer>
 <nav>
     <ul>

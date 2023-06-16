@@ -121,10 +121,7 @@ input{
     background: rgb(43, 5, 13);
     border-radius: 20px;
 }
-@keyframes {
-    from{ }
-    to{}
-}
+
 @keyframes mymove {
      0%{background-image:url("https://www.eltiempo.com/files/og_paste_img/uploads/2022/11/22/637d7161378f8.jpeg");} 
     25%{

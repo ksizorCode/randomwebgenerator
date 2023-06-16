@@ -13,7 +13,8 @@ body{
     text-align: center;
     min-height: 100vh;
     max-height:100vh;
-    color:var(--c2);
+    color:var(--c1);
+    text-shadow: 2px 2px 4px var(--l1);
 }
 a{
     text-decoration: none;
@@ -77,4 +78,14 @@ ul.menu li{
       filter:grayscale(0)
   
   }
+#pie{
+    background: aliceblue;
+    border: 10px dotted #475fad;
+    border-radius: 20px;
+    filter:sepia(1);
+    transition:.7s;
+}
+#pie:hover{
+    filter:sepia(0);
+}
   

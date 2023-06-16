@@ -1,8 +1,10 @@
+<!-- RIC -->
+
 </main>
 
 <footer>
 
-&copy
+<p>&copy; Copyright 2023 - Richytheme</p>
 </footer>
 
 </body>

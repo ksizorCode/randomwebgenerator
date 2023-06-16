@@ -20,7 +20,7 @@ function randomTheme(){
 }
 
 //Carga aleatoria de contenido
-$theme = $casos[random()];
+//$theme = $casos[random()];
 echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
 include 'themes/'.$theme.'/_content.php';
 

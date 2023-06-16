@@ -17,6 +17,10 @@ Recuerda que para insertar un fragmento de código php en el htmo tendrás que e
 |txt3();        |  e('txt3');       |   Párrafo 3                   |
 
 
+### para cartar el style.css de forma aleatoria inserta esto en link del css
+
+````<? insertar('style');?>
+
 
 ## Etiquetas HTML
 body

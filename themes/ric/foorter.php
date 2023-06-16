@@ -2,7 +2,7 @@
 
 <footer>
 
-&copy
+<p>&copy;rictheme</p>
 </footer>
 
 </body>

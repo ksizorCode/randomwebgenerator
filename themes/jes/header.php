@@ -9,8 +9,8 @@
 <body>
 
 <header>
-    <h1>Titulo de la web</h1>
-<h2>Subtítulo o eslogan</h2>
+    <h1>Últimos díassssssss</h1>
+<h2>Fiesta el día 23</h2>
 
 <nav>
     <ul>

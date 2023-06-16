@@ -29,7 +29,7 @@ function insertar($v){
             include $v.'.php';
             break;
     }
+}
     ?>
 
 
-}

@@ -13,7 +13,8 @@ body{
     text-align: center;
     min-height: 100vh;
     max-height:100vh;
-    color:var(--c2);
+    color:var(--c1);
+    text-shadow: 2px 2px 4px var(--l1);
 }
 a{
     text-decoration: none;

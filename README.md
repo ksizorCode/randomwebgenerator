@@ -3,6 +3,18 @@ Random web generator
 
 
 ## Funciones del PHP
+Recuerda que para insertar un fragmento de código php en el htmo tendrás que escribir algo tipo 
+''' <? e('lang ')?>
+
+|---|---|---|
+| opcion 1      | opción 2          |   explicación                 |
+|lang();        |  e('lang');       |   Idioma de la página (es-ES) |
+|titulo();      |  e('titulo');     |   Título de la página         |
+|webtitulo();   |  e('webtitulo');  |   Título de la web o site     |
+|subtitulo();   |  e('subtitulo');  |   Subtítulo de la web         |
+|txt1();        |  e('txt1');       |   Párrafo 1                   |
+|txt2();        |  e('txt2');       |   Párrafo 2                   |
+|txt3();        |  e('txt3');       |   Párrafo 3                   |
 
 
 

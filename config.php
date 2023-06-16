@@ -50,6 +50,11 @@ function insertar($v){
 //Cargar los datos del theme de mig - hasta que el resto de los alumnos mentan los suyos propios
 include 'themes/mig/_content.php';
 
+function webtitulo(){
+    global $dato;
+    echo $dato['webtitulo']; 
+}
+
 function titulo(){
     global $dato;
     echo $dato['titulo']; 
@@ -59,6 +64,23 @@ function subtitulo(){
     global $dato;
     echo $dato['subtitulo']; 
 }
+
+
+function lang(){
+    global $dato;
+    echo $dato['lang'];
+}
+
+
+function e($v){
+    global $dato;
+    echo $dato[$v];
+}
+
+
+
+
+
 
 
 
@@ -156,11 +178,4 @@ function finFooter(){
 }
 
 //Carga idioma en la etiqueta lang del HTML
-function lang(){
-    global $lang;
-    echo $lang;
-}
-
-
-
 

@@ -1,4 +1,5 @@
 /* Laura */
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Foldit:wght@100&display=swap');;
 :root{
     --l1:white;
     --l2:rgb(222, 156, 244);
@@ -15,7 +16,10 @@ body{
     max-height:100vh;
     color:var(--c1);
     text-shadow: 2px 2px 4px var(--l1);
+    ont-family: 'Chilanka', cursive;
 }
+
+p{font-family: 'Foldit', cursive;}
 a{
     text-decoration: none;
 }

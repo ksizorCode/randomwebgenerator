@@ -11,7 +11,12 @@ $dato =[
     'img1'=>'001.jpg',
     'img2'=>'002.jpg',
     'img3'=>'003.jpg',
-    
+    'menu'=>[
+        ['Inicio','index.php',0],
+        ['Servicios','servicios.php',0],
+        ['Nosotros','nosotros.php',0],
+        ['Redes Sociales','https://facebook.com',1]
+        ]
     ];
 
     

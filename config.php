@@ -28,6 +28,12 @@ function insertar($v){
         case 'footer':
             include 'themes/'.$casos[random()].'/footer.php';
             break;
+        // Si es Footer carga footer.php
+        case 'style':
+            echo '<style>';
+            include 'themes/'.$casos[random()].'/style.css';
+            echo '</style>';
+            break;
         
         //Si no es ninguno de los anteriores carga:
         default:

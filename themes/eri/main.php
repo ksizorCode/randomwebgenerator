@@ -1,7 +1,7 @@
 <h1><?titulo();?></h1>
 <h4><?subtitulo();?></h4>
 <div class="section1">
-<img src="themes/mig/img/<?e('img1');?>" alt="">
+<img src="themes/eri/img/<?e('img1');?>" alt="">
 <div>
 <p><?e('txt1');?></p>
 <p><?e('txt2');?></p>
@@ -10,8 +10,8 @@
 <p><?e('txt3');?></p>
 
 <div class="section2">
-  <img src="themes/mig/img/<?e('img2');?>" alt="">
-  <img src="themes/mig/img/<?e('img3');?>" alt="">
+  <img src="themes/eri/img/<?e('img2');?>" alt="">
+  <img src="themes/eri/img/<?e('img3');?>" alt="">
 </div>
 
 

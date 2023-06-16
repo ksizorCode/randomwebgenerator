@@ -31,7 +31,7 @@ function insertar($v){
         // Si es Footer carga footer.php
         case 'style':
             echo '<style>';
-            include 'themes/'.$casos[random()].'/style.css?v='.date('U');
+            include 'themes/'.$casos[random()].'/style.css';
             echo '</style>';
             break;
         

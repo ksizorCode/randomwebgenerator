@@ -1,7 +1,9 @@
+    <!-- alejandro  -->
+    
     </main>
     <footer>
-        <!-- Aquí puedes colocar el contenido del pie de página -->
-        <p>Pie de página</p>
+        <!-- contenido del footer -->
+        <p>el footer</p>
     </footer>
 </body>
 </html>

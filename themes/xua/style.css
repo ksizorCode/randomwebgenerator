@@ -1,0 +1,20 @@
+body{
+background: rgb(47, 152, 113);
+font-family: sans-serif;
+padding: 20px;
+max-width:960px;
+margin-inline:auto;
+}
+
+header, main, footer{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: green 2px solid;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

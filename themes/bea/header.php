@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <head>
+    <header>
         <nav>
             <ul>
                 <li><a href="">algo</a></li>
@@ -17,7 +17,7 @@
                 <li><a href="">algo</a></li>
             </ul>
         </nav>
-    </head>
+    </header>
     <main>
 
 

@@ -16,3 +16,8 @@ Hola, yo soy el&nbsp;<span class="typewriter5"></span>
 <h6 aria-label="Hi! I'm a developer">
   Hola, yo soy el&nbsp;<span class="typewriter6"></span>
 </h6>
+
+
+<button>Ejemplo de botón</button>
+<button class="selected">Ejemplo de botón</button>
+<button class="disable">Ejemplo de botón</button>

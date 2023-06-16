@@ -20,12 +20,9 @@ if(isset($_GET['nombre'])){
 
 
 
-<p>Esto es tu header:</p>
 <? include 'themes/'.$nombre.'/header.php';?>
 
-<p>Esto es tu main:</p>
 <? include 'themes/'.$nombre.'/main.php';?>
 
-<p>Esto es tu footer:</p>
 <? include 'themes/'.$nombre.'/footer.php';?>
 

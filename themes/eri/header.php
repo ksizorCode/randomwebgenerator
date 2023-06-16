@@ -10,7 +10,10 @@
 <body>
 
 <header>
-    <div>
+<div>
+<img src="https://chpic.su/_data/stickers/c/ComeToTheDarkSide/ComeToTheDarkSide_030.webp" alt="">
+</div>    
+<div>
     <h2>Dark theme</h2>
     <nav>
     <ul>
@@ -22,7 +25,7 @@
     </ul>
     </nav>
 </div>
-<img src="https://chpic.su/_data/stickers/c/ComeToTheDarkSide/ComeToTheDarkSide_030.webp" alt="">
+
 </header>
 <main>
 

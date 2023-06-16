@@ -6,12 +6,24 @@
 body{
     font-family: var(--ff);
     background: var(--c);
-    max-width:650px;
+    max-width:750px;
     min-width: 320px;
     margin-inline: auto;
     padding: 20px;
     color:white;
-}
+
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    /* position: fixed; */
+    justify-content: center;
+  
+
+    background-image: linear-gradient(-180deg,rgba(73,74,79,0) 2%,#252525),radial-gradient(50% 137%,rgba(73,74,79,0) 0,#252525 100%), url(/randomwebgenerator/themes/eri/img/thumb-1920-59190.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    }
 
 header{
     background: black;
@@ -144,6 +156,7 @@ footer{
     border-radius: 20px;
     border:white 1px solid;
 }
+
 
 
 /* Animacion typewriter (maquina de escribir) */

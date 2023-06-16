@@ -1,0 +1,38 @@
+/* Aquí puedes agregar estilos personalizados para tu página */
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

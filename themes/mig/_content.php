@@ -19,7 +19,7 @@ $dato =[
             ]
     ];
 
-    
+ /*   
 echo $dato['txt3'];
 echo $dato['img1'];
 echo $dato['img2'];
@@ -34,3 +34,5 @@ foreach($dato['menu'] as $e){
     echo '</li>';
     echo '</ul>';
 }
+
+*/

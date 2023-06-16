@@ -1,11 +1,13 @@
 <!-- miguel -->
 <section>
-<article>
-    <h1>Ejemplo de Título</h1>
-    <h2>Ejemplo de Subtítulo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae, tenetur, facilis sequi tempore similique quis quidem maxime harum delectus itaque quaerat impedit culpa. Doloribus labore asperiores nisi ab doloremque?</p>
-
-</article>
+    <img src="themes/mig/img/<?e('img3');?>" alt="">
+     <h1><?titulo();?></h1>
+<h2><?subtitulo();?></h2>
+    <p><?e('txt1');?></p>
+    <img src="themes/mig/img/<?e('img1');?>" alt="">
+    <p><?e('txt2');?></p>
+    <img src="themes/mig/img/<?e('img2');?>" alt="">
+    <p><?e('txt3');?></p>
 </section>
 
 

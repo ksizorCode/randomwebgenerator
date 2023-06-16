@@ -1,7 +1,6 @@
 <?
 //Listado de todas las carpetas que están dentro de themes
-$casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri'];
-
+$casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua'];
 
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
 function random(){
@@ -14,6 +13,7 @@ function random(){
 
 
 //Cargar elementos via include
+// insertar('header');
 function insertar($v){
     global $casos ;
     switch ($v) {
@@ -28,7 +28,11 @@ function insertar($v){
         case 'footer':
             include 'themes/'.$casos[random()].'/footer.php';
             break;
-        // Si es Footer carga footer.php
+        // Si es Footer carga main.php
+        case 'main':
+            include 'themes/'.$casos[random()].'/main.php';
+            break;
+        // Si es Footer carga style.css
         case 'style':
             echo '<style>';
             include 'themes/'.$casos[random()].'/style.css';
@@ -37,14 +41,47 @@ function insertar($v){
         
         //Si no es ninguno de los anteriores carga:
         default:
-            include $v.'.php';
+            include 'themes/'.$casos[random()].'/'.$v.'.php';
             break;
     }
 }
 
 
+
+
+function menu(){
+    global $dato;
+
+
+    echo '<ul class="menu">';
+    foreach($dato['menu'] as $e){
+        echo '<li>';
+        echo '<a href="'.$e[1].'"';
+
+        if($e[2]){
+            echo 'target="_blank" ';
+        }
+
+        echo '>'.$e[0].'</a>';
+        echo '</li>';
+
+    }
+    echo '</ul>';
+
+    
+}
+
+
+
+
+
 //Cargar los datos del theme de mig - hasta que el resto de los alumnos mentan los suyos propios
 include 'themes/mig/_content.php';
+
+function webtitulo(){
+    global $dato;
+    echo $dato['webtitulo']; 
+}
 
 function titulo(){
     global $dato;
@@ -55,6 +92,23 @@ function subtitulo(){
     global $dato;
     echo $dato['subtitulo']; 
 }
+
+
+function lang(){
+    global $dato;
+    echo $dato['lang'];
+}
+
+
+function e($v){
+    global $dato;
+    echo $dato[$v];
+}
+
+
+
+
+
 
 
 
@@ -111,28 +165,7 @@ function apartadoyTitulo(){
     echo $titulos;
 }
 
-//Constructor de Menú
-function menuBuilder(){
-    global $miMenu;
-
-
-
-    echo '<ul class="menu">';
-    foreach($miMenu as $e){
-        echo '<li>';
-        echo '<a href="'.$e[1].'" class="'.$e[4].'" ';
-
-        if($e[2]){
-            echo 'target="_blank" ';
-        }
-
-        echo '>'.$e[0].'</a>';
-        echo '</li>';
-
-    }
-    echo '</ul>';
-
-}
+function menuBuilder(){     menu(); }
 
 
 //Cargar Color y Fuente principal
@@ -152,11 +185,4 @@ function finFooter(){
 }
 
 //Carga idioma en la etiqueta lang del HTML
-function lang(){
-    global $lang;
-    echo $lang;
-}
-
-
-
 

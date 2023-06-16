@@ -1,6 +1,9 @@
 </main>
 <footer>
-    <p>&copy; Copyright 2023 - Miguel Esteban theme</p>
+<? menu(); ?>
+
+<p>&copy; Copyright 2023 - <? webtitulo();?> basado en mig theme</p>
+
 </footer>
 </body>
 </html>

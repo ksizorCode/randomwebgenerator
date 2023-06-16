@@ -1,6 +1,6 @@
 <?
 //Listado de todas las carpetas que están dentro de themes
-$casos =['ric','fra','ale','jes','lau','bea','aug','mig'];
+$casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua'];
 
 
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
@@ -31,7 +31,7 @@ function insertar($v){
         // Si es Footer carga footer.php
         case 'style':
             echo '<style>';
-            include 'themes/'.$casos[random()].'/style.css';
+            include 'themes/'.$casos[random()].'/style.css?v='.date('U');
             echo '</style>';
             break;
         

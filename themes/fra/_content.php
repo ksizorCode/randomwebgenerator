@@ -11,9 +11,9 @@ $dato =[
     'txt1'=>'Han pasado más de 40 años desde la fabricación del primer coche y ahí sigue',
     'txt2'=>'El nombre ha sido inspirado en el nombre de una isla de las Isalas Baleares',
     'txt3'=>'El número de fans de este coche es impresionante',
-    'img1'=>'001.jpg',
-    'img2'=>'002.jpg',
-    'img3'=>'003.jpg',
+    'img1'=>'themes/fra/img/001.jpg',
+    'img2'=>'themes/fra/img/002.jpg',
+    'img3'=>'themes/fra/img/003.jpg',
     'menu'=>[
             ['Home','index.php',0],
             ['Historia','historia.php',0],

@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-    <h1>Que se yo que poner</h1>
+    <h1>Lorem fistrum</h1>
 
 <nav>
     <ul>

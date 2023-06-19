@@ -15,9 +15,9 @@ $dato =[
     'txt3'=>'Después de ayudar a Bruce Wayne / Batman y Diana Prince / Mujer Maravilla a detener un robo a un banco que salió mal, Barry Allen / Flash vuelve a visitar la casa de su infancia, donde recibe recuerdos de sus padres, Nora y Henry, antes de que mataran a Nora, el crimen del que Henry fue acusado y encarcelado. Superado por sus emociones, Barry accidentalmente viaja en el tiempo más temprano ese día e informa a Bruce al respecto. A pesar de las advertencias de Bruce de que viajar en el tiempo puede tener consecuencias no deseadas, Barry se remonta al día de la muerte de Nora y evita que suceda.
 
     Cuando Barry intenta volver al presente, termina en un 2013 alternativo donde sus padres están vivos. Encuentra su yo pasado y se da cuenta de que está en el día en que obtiene sus poderes. Los dos Barry van al Departamento de Policía de Ciudad Central donde Barry ayuda a darle al Barry de 2013 sus poderes durante una extraña tormenta, mientras pierde sus propios poderes en el proceso. Mientras Barry lucha por entrenar al Barry de 2013 para usar sus poderes, los dos notan una transmisión del General Zod, que se prepara para invadir la Tierra',
-    'img1'=>'theme/mig/img/001.jpg',
-    'img2'=>'theme/mig/img/002.jpg',
-    'img3'=>'theme/mig/img/003.jpg',
+    'img1'=>'https://images.unsplash.com/photo-1678297405489-d25d9f5bdff0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+    'img2'=>'https://images.unsplash.com/photo-1678308860535-210ff0f57af6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80',
+    'img3'=>'https://images.unsplash.com/photo-1678329887232-a48991da8286?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80',
     'menu'=>[
             ['Home','index.php',0],
             ['Películas','peliculas.php',0],

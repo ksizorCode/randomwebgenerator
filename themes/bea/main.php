@@ -9,7 +9,7 @@
 </p>
 <ul class="contenedor">
   <li class="card">
-    <img class="img" src="themes/bea/img/casadiella.jpg" alt="" />
+    <img class="img" src="themes/bea/img/001.jpg" alt="" />
     <h3>algo de aqui</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
@@ -17,7 +17,7 @@
     </p>
   </li>
   <li class="card">
-    <img class="t" src="themes/bea/img/turron.jpg" alt="" />
+    <img class="t" src="themes/bea/img/002.jpg" alt="" />
     <h3>algo de España</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
@@ -25,7 +25,7 @@
     </p>
   </li>
   <li class="card">
-    <img class="" src="themes/bea/img/Makowiec.jpg" alt="" />
+    <img class="" src="themes/bea/img/003.jpg" alt="" />
     <h3>algo de Europa</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,

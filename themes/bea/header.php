@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Dulces sensaciones</title>
 </head>
 <body>
     <header>
-    <<div class="header">
+    <div class="header">
   <h1>Date un gusto</h1>
   <img src="themes/bea/img/logo.jpg" alt="logo" />
 </div>

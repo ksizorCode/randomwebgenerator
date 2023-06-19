@@ -6,6 +6,7 @@
 </head>
 <body>
     <header>
+        <h2>ASTURIAS</h2>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>

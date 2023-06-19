@@ -27,7 +27,7 @@ body{
     main{
         background-color: #619cd4;
         border-radius: 10px 50px 10px 50px;
-        height: 560px;
+        
 
     }
     h1{
@@ -50,3 +50,9 @@ ul{
   list-style: none;
 }
 
+nav ul{
+  list-style:none;
+  padding-left:0;
+  display: flex;
+  gap:10px;
+}

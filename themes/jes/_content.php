@@ -4,13 +4,15 @@
 //Array q almacena todos los datos
 
 $dato =[
+    'lang'=>"es",
+    'webtitulo'=>"DC Comic",
     'titulo'=>"Desarrollo Web en Dicampus",
     'subtitulo'=>' Recta final para terminar el curso ',
     'txt2'=>'Día 23 Fiesta',
     'txt3'=>'  ',
-    'img1'=>'001.jpg',
-    'img2'=>'002.jpg',
-    'img3'=>'003.jpg',
+    'img1'=>'themes/jes/img/img1.jpg',
+    'img2'=>'themes/jes/img/img2.jpg',
+    'img3'=>'themes/jes/img/img3.jpg',
     'menu'=>[
         ['Inicio','index.php',0],
         ['Servicios','servicios.php',0],
@@ -21,7 +23,7 @@ $dato =[
 
     
 /*echo $dato['txt3'];
-echo $dato['img1'];
+echo $datjho['img1'];
 echo $dato['img2'];
 echo $dato['img3'];
 

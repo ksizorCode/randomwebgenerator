@@ -17,7 +17,7 @@ $dato =[
     'txt2'=>'xuarl por la gloria de mi madre ese hombree qué dise usteer apetecan apetecan. Jarl diodenoo sexuarl benemeritaar a wan a wan qué dise usteer. Va usté muy cargadoo te va a hasé pupitaa no te digo trigo por no llamarte Rodrigor jarl fistro pecador',
 
 
-    'img1'=>'001.png',
+    'img1'=>'themes/dav/friday2.png',
     'img2'=>'002.jpg',
     'img3'=>'003.jpg',
     'menu'=>[

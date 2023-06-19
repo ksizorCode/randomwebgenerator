@@ -1,7 +1,8 @@
 <!-- Jess -->
 </main>
 <footer>
-    <p>&copy; Copyright 2023 - Miguel Esteban theme</p>
+<? menu(); ?>
+    <p>&copy; Copyright 2023 Jss</p>
 </footer>
 </body>
 </html>

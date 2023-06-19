@@ -1,4 +1,4 @@
-
+</main>
   <footer>
     <img src="" alt="">
     <div id="pie">

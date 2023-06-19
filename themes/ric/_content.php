@@ -29,9 +29,11 @@ $dato =[
     El deporte no solo se trata de ganar o perder, sino también de superarse a uno mismo. Es una forma de mantenernos en forma y saludables, liberar el estrés y pasar tiempo con amigos. Además, el deporte nos enseña lecciones valiosas sobre el trabajo en equipo, la disciplina y la perseverancia.
     
     ¡Así que sal y juega! Ya sea que te guste patear un balón, lanzar una pelota o montar una bicicleta, el deporte está aquí para mantenerte activo, entretenido y emocionado. ¡Descubre tu pasión deportiva y sé parte de la acción en nuestros tiempos llenos de diversión y competencia!',
-    'img1'=>'001.jpg',
-    'img2'=>'002.jpg',
-    'img3'=>'003.jpg',
+    'img1'=>'themes/ric/img/001.jpg',
+    'img2'=>'themes/ric/img/002.jpg',
+    'img3'=>'themes/ric/img/003.jpg',
+    'img3'=>'themes/ric/img/004.jpg',
+    'img3'=>'themes/ric/img/005.jpg',
     'menu'=>[
             ['Inicio','index.php',0],
             ['Películas','peliculas.php',0],

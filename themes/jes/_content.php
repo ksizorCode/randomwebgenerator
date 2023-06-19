@@ -4,6 +4,8 @@
 //Array q almacena todos los datos
 
 $dato =[
+    'lang'=>"es",
+    'webtitulo'=>"DC Comic",
     'titulo'=>"Desarrollo Web en Dicampus",
     'subtitulo'=>' Recta final para terminar el curso ',
     'txt2'=>'Día 23 Fiesta',

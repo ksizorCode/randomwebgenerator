@@ -1,5 +1,5 @@
 <section>
-  <h1><? e('title')?></h1>
+<h1><? e('title')?></h1>
 
 <img id="foto" src="<?e('img1')?>" alt="">
 <img id="foto" src="<?e('img2')?>" alt="">

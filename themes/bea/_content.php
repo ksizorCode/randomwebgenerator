@@ -5,7 +5,7 @@
 
 $dato =[
     'lang'=>'es-ES',
-    'webtitulo'=>"Dulces tentaciones",
+    'webtitulo'=>"Vamos al lado más dulce",
     'titulo'=>"Date un gusto",
     'subtitulo'=>'Cuál vas a probar primero....',
     'txt1'=>'Uno de los dulces tradicionales que personalmente más disfruto casadielles ...',

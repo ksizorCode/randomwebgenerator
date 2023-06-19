@@ -12,9 +12,12 @@ Recuerda que para insertar un fragmento de código php en el htmo tendrás que e
 |titulo();      |  e('titulo');     |   Título de la página         |
 |webtitulo();   |  e('webtitulo');  |   Título de la web o site     |
 |subtitulo();   |  e('subtitulo');  |   Subtítulo de la web         |
-|txt1();        |  e('txt1');       |   Párrafo 1                   |
-|txt2();        |  e('txt2');       |   Párrafo 2                   |
-|txt3();        |  e('txt3');       |   Párrafo 3                   |
+|               |  e('txt1');       |   Párrafo 1                   |
+|               |  e('txt2');       |   Párrafo 2                   |
+|               |  e('txt3');       |   Párrafo 3                   |
+|               |  e('img1');       |   Imagen 1                   |
+|               |  e('img2');       |   Imagen 2                   |
+|               |  e('img3');       |   Imagen 3                   |
 
 
 ### para cartar el style.css de forma aleatoria inserta esto en link del css

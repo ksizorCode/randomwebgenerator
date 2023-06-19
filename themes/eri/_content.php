@@ -1,6 +1,6 @@
 <?php
 
-// Miguel
+// Eric
 //Array que  que almacena todos los datos
 
 $dato =[

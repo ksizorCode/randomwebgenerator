@@ -18,7 +18,8 @@ include 'themes/'.$theme.'/_content.php';*/
 <link rel="stylesheet" href="<? echo 'themes/'.$theme.'/style.css?v='.date('U');?>">
 
 
-<a href="index.php">Volver a random theme</a>
+<a href="index.php">Volver a random theme</a><br>
+<a href="ver2.php">Ver Configurador de partes de theme</a><br>
 <form action="ver.php" method="get">
     <select name="nombre" id="nombre">
         <option>Seleccione un theme</option>

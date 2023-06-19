@@ -22,6 +22,7 @@ Sombragrís fue prestado por el rey Théoden a Gandalf, aunque después de que e
 
 </ul>
 </nav>
-<img src="https://i.etsystatic.com/33105279/r/il/a76a10/4194011056/il_794xN.4194011056_mew2.jpg" alt="">
+<img src="https://i.etsystatic.com/33105279/r/il/a76a10/4194011056/il_794xN.4194011056_mew2.jpg" alt="caballo">
+<img src="https://www.nationalgeographic.com.es/medio/2022/12/12/caballo-1_c26bdfb7_221212154643_1280x720.jpg" alt="">
 </header>
 <main>

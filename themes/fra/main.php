@@ -1,4 +1,5 @@
 <!-- Fran -->
+<h2>He creado una nueva rama</h2>
 <section>
     <img src="<?e('img3');?>" alt="">
      <h1><?titulo();?></h1>

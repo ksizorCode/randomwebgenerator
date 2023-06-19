@@ -47,7 +47,7 @@ aside {
 }
   
 nav{
-    position: fixed;
+    position: sticky;
     margin:0 auto;
 }
   ul{

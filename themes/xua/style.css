@@ -1,5 +1,10 @@
+:root{
+    --c1:rgb(47, 152, 113);
+}
+
+
 body{
-background: rgb(47, 152, 113);
+background: var(--c1);
 font-family: sans-serif;
 padding: 20px;
 max-width:960px;
@@ -17,4 +22,19 @@ header, main, footer{
 
 p{
     text-align: justify;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    gap:10px;
+}
+
+a{
+    color: var(--c);;
 }

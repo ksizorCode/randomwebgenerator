@@ -3,7 +3,7 @@
 // Miguel
 //Array que  que almacena todos los datos
 
-$dato =
+$dato =[
     'lang'=>'es-ES',
     'webtitulo'=>"Ratas",
     'titulo'=>"La carne de rata por cordero en China y otros escándalos",
@@ -58,6 +58,8 @@ $dato =
             ['Cartelera','cartelera.php',0],
             ['facebook','https://facebook.com',1]
             ];
+        
+        ];
             
             /*   
 echo $dato['txt3'];
@@ -76,4 +78,3 @@ foreach($dato['menu'] as $e){
 }
 
 */
-?>

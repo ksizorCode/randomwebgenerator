@@ -1,4 +1,4 @@
-<!-- eric -->
+<!-- Eric -->
 <!DOCTYPE html>
 <html lang="<?e('lang')?>">
 <head>

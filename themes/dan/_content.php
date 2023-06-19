@@ -57,7 +57,7 @@ $dato =[
             ['Películas','peliculas.php',0],
             ['Cartelera','cartelera.php',0],
             ['facebook','https://facebook.com',1]
-            ];
+            ]
         
         ];
             

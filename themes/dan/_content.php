@@ -3,30 +3,63 @@
 // Miguel
 //Array que  que almacena todos los datos
 
-$dato =[
+$dato =
     'lang'=>'es-ES',
-    'webtitulo'=>"Fotogramas",
-    'titulo'=>"Batman regresa en la última peli de Flash",
-    'subtitulo'=>'La última película del estudio Warner Broders promete una buena dosis de nostalgia a los fans del comic de DC.',
-    'txt1'=>'Han pasado más de 34 años desde que Tim Burton estrenó la primera adaptación cinematográfica del super heroe de la negra capa. ',
-    'txt2'=>'The Flash es una película estadounidense de superhéroes basada en el personaje homónimo de DC Comics. Producida por DC Studios, The Disco Factory y Double Dream y distribuida por Warner Bros. Pictures, pretende ser la decimotercera película del Universo extendido de DC (DCEU). La película está dirigida por Andy Muschietti a partir de un guion de Christina Hodson y está protagonizada por Ezra Miller como Barry Allen / Flash, junto a Ron Livingston, Michael Keaton, Kiersey Clemons, Michael Shannon, Antje Traue, Sasha Calle y Ben Affleck. En The Flash, Allen viaja al pasado para evitar el asesinato de su madre, lo que trae consecuencias no deseadas.
+    'webtitulo'=>"Ratas",
+    'titulo'=>"La carne de rata por cordero en China y otros escándalos",
+    'subtitulo'=>'El último escándalo de la industria alimentaria china -básicamente, tratar de pasar carne de rata por cordero -ha planteado nuevas preguntas sobre la seguridad alimentaria en el país.',
+    'txt1'=>'Parece que no pasa un día en China sin que escuchemos noticias de otro escándalo sobre seguridad alimentaria.
 
-    El desarrollo de una película basada en Flash comenzó en 2004, con varios escritores y directores adjuntos al proyecto hasta 2014. Luego, la película se volvió a desarrollar como parte del DCEU, con Miller elegido como el personaje principal. Varios directores se unieron a la película durante los años siguientes, con Seth Grahame-Smith, Rick Famuyiwa y el dúo de John Francis Daley y Jonathan Goldstein dejando el proyecto debido a diferencias creativas. Muschietti y Hodson se unieron a la película en julio de 2019 y la preproducción comenzó en enero de 2020. La película está influenciada por la historia del cómic Flashpoint, que presenta a varios personajes de DC Comics, incluidos Affleck y Keaton, repitiendo sus respectivas versiones de Batman. El rodaje tuvo lugar de abril a octubre de 2021 en Warner Bros. Studios, Leavesden y en locaciones de todo el Reino Unido.',
-    'txt3'=>'Después de ayudar a Bruce Wayne / Batman y Diana Prince / Mujer Maravilla a detener un robo a un banco que salió mal, Barry Allen / Flash vuelve a visitar la casa de su infancia, donde recibe recuerdos de sus padres, Nora y Henry, antes de que mataran a Nora, el crimen del que Henry fue acusado y encarcelado. Superado por sus emociones, Barry accidentalmente viaja en el tiempo más temprano ese día e informa a Bruce al respecto. A pesar de las advertencias de Bruce de que viajar en el tiempo puede tener consecuencias no deseadas, Barry se remonta al día de la muerte de Nora y evita que suceda.
+    Pero el caso más reciente es vomitivo. Incluso para los estándares chinos.
+    
+    Cientos de personas fueron detenidas después de haber pasado carne de rata por cordero.',
+    'txt2'=>'Escuché una anécdota sobre un restaurante en el sur de China, que sirve platos de carne de rata. Créanme, estos establecimientos sí existen.
 
-    Cuando Barry intenta volver al presente, termina en un 2013 alternativo donde sus padres están vivos. Encuentra su yo pasado y se da cuenta de que está en el día en que obtiene sus poderes. Los dos Barry van al Departamento de Policía de Ciudad Central donde Barry ayuda a darle al Barry de 2013 sus poderes durante una extraña tormenta, mientras pierde sus propios poderes en el proceso. Mientras Barry lucha por entrenar al Barry de 2013 para usar sus poderes, los dos notan una transmisión del General Zod, que se prepara para invadir la Tierra',
-    'img1'=>'theme/mig/img/001.jpg',
-    'img2'=>'theme/mig/img/002.jpg',
-    'img3'=>'theme/mig/img/003.jpg',
+    En este restaurante en particular, los propietarios le dicen a los clientes que sus ratas fueron capturadas mientras corrían libres por el campo. No vienen de las alcantarillas.
+    
+    Sea o no cierto, por lo menos da una idea de la preocupación pública por la seguridad alimentaria.
+    
+    Cuando usted come en restaurantes baratos –o puestos callejeros- siempre quedará con esa incómoda sensación de que puede haber consumido algo que no pidió.
+    
+    Hace poco, mi esposa almorzó en un restaurante y descubrió una piedra en la sopa y luego parte de un cepillo de fregar en su plato principal.
+    
+    Cuando le pregunté por qué no se había quejado, me dijo que no había querido echarle a perder la comida a sus amigos.',
+    'txt3'=>'Es irónico. La gente hoy en China está comiendo más que nunca, pero la calidad no parece mejorar.
+
+    La obesidad, que solía ser un mal desconocido en el país, se está convirtiendo en un problema.
+    
+    China ha experimentado la mayor migración humana de su historia: decenas de millones de habitantes de zonas rurales se han ido a las ciudades para alimentar el notable crecimiento económico del país.
+    
+    El viaje desde las granjas hacia las fábricas en el último par de décadas ha dado lugar a una vasta cadena de suministro de alimentos para la población urbana de China.
+    
+    Pero la industria de la comida aquí es a menudo sucia e incluso criminal.
+    
+    Los agricultores ahogan las verduras en pesticidas, el ganado está lleno de esteroides, y los funcionarios corruptos - después de llevarse su comisión - certifican alimentos de dudosas condiciones como seguros.
+    
+    De modo que la preocupación de la gente no es gratuita.
+    
+    Un fin de semana me junté con unos citadinos que decidieron convertirse en agricultores a tiempo parcial.
+    
+    Algunos consultores de relaciones públicas, otros profesores y programadores informáticos, hacían malabares con sus iPhones y palas en una granja orgánica en las afueras de la capital.
+    
+    Relucientes de sudor, decían que su trabajo de fin de semana consistía en asegurar la calidad de los productos.
+    
+    Sin embargo, para la mayoría de la gente no es factible desplazarse hacia las zonas rurales.
+    
+    Así que la clase media china -junto con muchos extranjeros- compran su carne de Australia y su leche de Nueva Zelanda.
+    
+    Con tanta desconfianza, quienes tienen dinero optan por las marcas reconocidas.',
+    'img1'=>'theme/dan/img/001.jpg',
+    'img2'=>'theme/dan/img/002.jpg',
+    'img3'=>'theme/dan/img/003.jpg',
     'menu'=>[
             ['Home','index.php',0],
             ['Películas','peliculas.php',0],
             ['Cartelera','cartelera.php',0],
             ['facebook','https://facebook.com',1]
-            ]
-    ];
-
- /*   
+            ];
+            
+            /*   
 echo $dato['txt3'];
 echo $dato['img1'];
 echo $dato['img2'];
@@ -43,3 +76,4 @@ foreach($dato['menu'] as $e){
 }
 
 */
+?>

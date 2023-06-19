@@ -1,19 +1,19 @@
 <!-- laura -->
 
-    <h1>Esta es una aplicación hecha entre todos</h1>
+    <h1><? e('titulo')?></h1>
     <img src="https://media.istockphoto.com/id/1392016982/es/foto/grupo-mixto-de-empresarios-sentados-alrededor-de-una-mesa-y-hablando.jpg?s=612x612&w=0&k=20&c=K5htjbC66KE4KL7R4Ca6rPxU1I7PkwffSq27gbOIGzo=" alt="Foto grupal">
-    <h2>A ver si sale bien todo</h2>
+    <h2><? e('subtitulo')?></h2>
     <ul>
-        <li><img src="themes/lau/img/001.jpg" alt=""></li>
-        <li><img src="themes/lau/img/002.jpg" alt=""></li>
-        <li><img src="themes/lau/img/003.jpg" alt=""></li>
+        <li><img src="<? e('img1')?>" alt=""></li>
+        <li><img src="<? e('img2')?>" alt=""></li>
+        <li><img src="<? e('img3')?>" alt=""></li>
     </ul>
     <section>
     <article>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, rem.</p>
+    <p><? e('txt1')?></p>
     <aside>
-<p>Life is wonderfully, even though you can face lots of setbacks, you have to admit it is worth it</p>
+<p><? e('txt2')?></p>
 </aside>
 </article>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque necessitatibus sed iure sunt? Ad eveniet, aliquid aperiam officiis tempore sed!</p>
+<p><? e('txt3')?></p>
 </section>

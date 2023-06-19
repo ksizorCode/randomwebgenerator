@@ -8,9 +8,9 @@ $dato =[
     'subtitulo'=>' Recta final para terminar el curso ',
     'txt2'=>'Día 23 Fiesta',
     'txt3'=>'  ',
-    'img1'=>'themes/jes/img/001.jpg',
-    'img2'=>'themes/jes/img/002.jpg',
-    'img3'=>'themes/jes/img/003.jpg',
+    'img1'=>'themes/jes/img/img1.jpg',
+    'img2'=>'themes/jes/img/img2.jpg',
+    'img3'=>'themes/jes/img/img3.jpg',
     'menu'=>[
         ['Inicio','index.php',0],
         ['Servicios','servicios.php',0],

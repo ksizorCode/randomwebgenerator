@@ -18,7 +18,7 @@ body {
     max-width: 1000px;
     margin: var(--m) auto;
     padding: var(--m);
-  background: var(--c1);    
+  background: linear-gradient(to bottom, #bd8ad5, #fbcefc, #edfdff); 
   }
 
 h1 {
@@ -27,7 +27,6 @@ h1 {
 ul.contenedor {
   list-style: none;
   padding-left: 0;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
@@ -84,6 +83,7 @@ h2 {
 }
 img {
   object-fit: cover;
+  max-width: 100%;
   object-position: 0 100%;
 }
 

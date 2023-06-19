@@ -5,7 +5,7 @@
 
 $dato =[
     'lang'=>'es-ES',
-    'webtitulo'=>"Cantante-actores",
+    'webtitulo'=>"Cantantes-actores",
     'titulo'=>"Cantando bajo la lluvia",
     'subtitulo'=>'Una pelicula de Gene Kelly en sus mejores tiempos',
     'txt1'=>'Cantando bajo la lluvia cuyo titulo oringinal es Singing in the Rain es una película musical de 1952 dirigida por Gene Kelly y Stanley Donen. Está protagonizada por Gene Kelly, Donald OConnor y Debbie Reynolds.',
@@ -16,7 +16,7 @@ $dato =[
     'img3'=>'003.jpg',
     'menu'=>[
             ['Home','index.php',0],
-            ['Películas','peliculas.php',0],
+            ['Musicales','peliculas.php',0],
             ['Cartelera','cartelera.php',0],
             ['facebook','https://facebook.com',1]
             ]

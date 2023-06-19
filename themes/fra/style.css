@@ -14,9 +14,7 @@ body{
     min-width: 300px;
     margin-inline: auto;
     padding: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation:mymove 4s infinite ;
+    
 
     
 }
@@ -43,9 +41,9 @@ img{
     animation: aparicion 2s;
     
 }
-img{
+/* img{
     scale:0.
-}
+} */
 
 a{
     text-decoration: none;
@@ -112,10 +110,10 @@ nav ul li a:hover {
 form{
     border:10px double red;
 }
-form:hover{
+/* form:hover{
   scale:1.5;
   translate:10px ;
-}
+} */
 input{
     color: rgb(202, 152, 110);
     background: rgb(43, 5, 13);

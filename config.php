@@ -1,8 +1,6 @@
 <?
 //Listado de todas las carpetas que están dentro de themes
-$casos =['ric','fra','ale','jes','lau','bea','aug','mig','eri','xua','fer','dav','dan'];
-
-
+$casos =['ric','fra','ale','jes','lau','mig','bea','xua'];
 
 
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos

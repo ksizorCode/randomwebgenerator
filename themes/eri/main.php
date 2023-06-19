@@ -1,3 +1,5 @@
+<!-- Eric -->
+
 <h1><?titulo();?></h1>
 <h4><?subtitulo();?></h4>
 <div class="section1">

@@ -1,12 +1,12 @@
 <!-- miguel -->
 <section>
-    <img src="themes/mig/img/<?e('img3');?>" alt="">
+    <img src="<?e('img3');?>" alt="">
      <h1><?titulo();?></h1>
 <h2><?subtitulo();?></h2>
     <p><?e('txt1');?></p>
-    <img src="themes/mig/img/<?e('img1');?>" alt="">
+    <img src="<?e('img1');?>" alt="">
     <p><?e('txt2');?></p>
-    <img src="themes/mig/img/<?e('img2');?>" alt="">
+    <img src="<?e('img2');?>" alt="">
     <p><?e('txt3');?></p>
 </section>
 

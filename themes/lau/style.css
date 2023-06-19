@@ -1,4 +1,5 @@
 /* Laura */
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Foldit:wght@100&display=swap');
 :root{
     --l1:white;
     --l2:rgb(222, 156, 244);
@@ -8,14 +9,20 @@
     --c3:black;
 }
 body{
-    max-height: 960px;
+    max-width: 960px;
     background-image: linear-gradient(30deg,var(--l2),var(--l1),var(--c2),var(--l1),var(--c1));
     text-align: center;
     min-height: 100vh;
     max-height:100vh;
     color:var(--c1);
     text-shadow: 2px 2px 4px var(--l1);
+    font-family: 'Chilanka', cursive;
+    margin:10px auto;
+    padding: 10px auto;
+    border:1px solid red;
 }
+
+p{font-family: 'Foldit', cursive;}
 a{
     text-decoration: none;
 }
@@ -37,11 +44,22 @@ aside {
     background-color: lightgray;
 }
   
+nav{
+    position: fixed;
+    margin:0 auto;
+}
   ul.menu{
+    margin:0 auto;
     display:flex;
+    align-items:center;
     justify-content:space-around;
     background:var(--l2);
     padding:10px;
+    height:20%;
+    gap:10px;
+    text-align: center;
+    border:1px solid red;
+   
 }
 ul.menu li{
     list-style: none;
@@ -77,6 +95,7 @@ ul.menu li{
       filter:grayscale(0)
   
   }
+  
 #pie{
     background: aliceblue;
     border: 10px dotted #475fad;

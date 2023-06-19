@@ -26,20 +26,19 @@ $dato =[
             ]
     ];
 
- /*   
-echo $dato['txt3'];
-echo $dato['img1'];
-echo $dato['img2'];
-echo $dato['img3'];
+    
+// echo $dato['txt3'];
+// echo $dato['img1'];
+// echo $dato['img2'];
+// echo $dato['img3'];
 
-foreach($dato['menu'] as $e){
-    echo '<ul>';
-    echo '<li>';
-    echo '<a href="'.$e[1].'">';
-    echo $e[0];
-    echo '</a>';
-    echo '</li>';
-    echo '</ul>';
-}
+// foreach($dato['menu'] as $e){
+//     echo '<ul>';
+//     echo '<li>';
+//     echo '<a href="'.$e[1].'">';
+//     echo $e[0];
+//     echo '</a>';
+//     echo '</li>';
+//     echo '</ul>';
+// }
 
-*/

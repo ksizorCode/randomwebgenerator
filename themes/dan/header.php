@@ -9,9 +9,6 @@
 <body>
     <header>
         <nav>
-            <?php
-            webtitulo("<h1>lavadoras Panasung</h1>");
-?>
 <ul id="menu1">
     <li>inicio</li>
     <li>quienes somos</li>

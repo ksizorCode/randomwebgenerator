@@ -10,8 +10,7 @@
     <header>
         <nav>
             <?php
-            webtitulo()
-echo "<h1>lavadoras Panasung</h1>";
+            webtitulo("<h1>lavadoras Panasung</h1>");
 ?>
 <ul id="menu1">
     <li>inicio</li>

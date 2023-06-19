@@ -1,4 +1,11 @@
 <? 
+
+$header ="undefined";
+$main ="undefined";
+$footer ="undefined";
+$style ="undefined";
+$content ="undefined";
+
 if(isset($_GET['header'])){
     $header = $_GET['header'];
 }
@@ -26,14 +33,18 @@ if(isset($_GET['content'])){
 <link rel="stylesheet" href="<? echo 'themes/'.$theme.'/style.css?v='.date('U');?>">
 
 
-<? function selecthtml($v){
+<? function selecthtml($v, $b){
     global $casos;
 
     echo '<label for="'.$v.'">'.$v.'</label>';
     echo '<select name="'.$v.'" id="'.$v.'">';
     echo '<option>Seleccione un theme</option>';
     foreach($casos as $caso){
-        echo '<option name="'.$caso.'">';
+        echo '<option name="'.$caso.'"';
+        if($caso == $b){
+            echo "selected";
+        }
+        echo '>';
         echo $caso;
         echo '</option>';
     }
@@ -43,11 +54,11 @@ if(isset($_GET['content'])){
 
 <a href="index.php">Volver a random theme</a>
 <form action="ver2.php" method="get">
-    <? selecthtml('header');?>
-    <? selecthtml('main');?>
-    <? selecthtml('footer');?>
-    <? selecthtml('style');?>
-    <? selecthtml('content');?>
+    <? selecthtml('header', $header);?>
+    <? selecthtml('main', $main);?>
+    <? selecthtml('footer', $footer);?>
+    <? selecthtml('style', $style);?>
+    <? selecthtml('content',$content);?>
 
     <input type="submit" value="Cargar">
 

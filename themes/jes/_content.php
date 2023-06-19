@@ -21,7 +21,7 @@ $dato =[
 
     
 /*echo $dato['txt3'];
-echo $dato['img1'];
+echo $datjho['img1'];
 echo $dato['img2'];
 echo $dato['img3'];
 

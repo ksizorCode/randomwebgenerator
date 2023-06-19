@@ -58,6 +58,7 @@ nav{
     gap:10px;
     text-align: center;
     border:1px solid red;
+    list-style: none;
    
 }
 ul.menu li{

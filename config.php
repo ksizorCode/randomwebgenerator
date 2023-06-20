@@ -3,6 +3,7 @@
 $casos =['ric','fra','ale','jes','lau','mig','bea','xua','dan','dav'];
 
 
+
 //Devuelve un valor aleatorio del 0 a la cantidad total de alumnos
 function random(){
     global $casos;
@@ -19,9 +20,10 @@ function randomTheme(){
 }
 
 //Carga aleatoria de contenido
-//$theme = $casos[random()];
-echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
-include 'themes/'.$theme.'/_content.php';
+//$theme = randomTheme()
+
+//echo 'Vamos a cargar: themes/'.$theme.'/_content.php';
+//include 'themes/'.$theme.'/_content.php';
 
 
 
@@ -30,32 +32,32 @@ include 'themes/'.$theme.'/_content.php';
 // insertar('header');
 function insertar($v){
     global $casos ;
-    switch ($v) {
-        
+
+    switch($v) {
         // Si es Header o head o html carga header.php
         case 'header':
         case 'head':
         case 'html':
-            include 'themes/'.$casos[random()].'/header.php';
+            include 'themes/'.randomTheme().'/header.php';
             break;
         // Si es Footer carga footer.php
         case 'footer':
-            include 'themes/'.$casos[random()].'/footer.php';
+            include 'themes/'.randomTheme().'/footer.php';
             break;
-        // Si es Footer carga main.php
+        // Si es main carga main.php
         case 'main':
-            include 'themes/'.$casos[random()].'/main.php';
+            include 'themes/'.randomTheme().'/main.php';
             break;
-        // Si es Footer carga style.css
+        // Si es style carga style.css
         case 'style':
             echo '<style>';
-            include 'themes/'.$casos[random()].'/style.css';
+            include 'themes/'.randomTheme().'/style.css';
             echo '</style>';
             break;
         
         //Si no es ninguno de los anteriores carga:
         default:
-            include 'themes/'.$casos[random()].'/'.$v.'.php';
+            include 'themes/'.randomTheme().'/'.$v.'.php';
             break;
     }
 }
@@ -80,9 +82,7 @@ function menu(){
         echo '</li>';
 
     }
-    echo '</ul>';
-
-    
+    echo '</ul>';  
 }
 
 
@@ -114,7 +114,7 @@ function lang(){
     echo $dato['lang'];
 }
 
-
+// e('txt3');
 function e($v){
     global $dato;
     echo $dato[$v];
@@ -122,11 +122,7 @@ function e($v){
 
 
 
-
-
-
-
-
+// ruta al tema para el link css
 function ruta_a_theme(){
     global $casos;
    echo  'themes/'.$casos[random()].'/style.css';
@@ -134,22 +130,13 @@ function ruta_a_theme(){
 
 
 
-
 /******************* POR SI ALGUIEN USASE EL SISTEMA ANTIUGO DEL OTRO DÍA ******************** */
 
 
 /* * * * * * * * * * FUNCIONES * * * * * * * * * * */
-
-
-
 function obtener_cabecera(){    insertar('header'); }
 function obtener_pie(){         insertar('footer'); }
-
-
 function el_titulo(){           titulo();           }
-
-
-
 
 //Título del apartado + título de la página:
 // Inicio - Mi Página Web
@@ -194,7 +181,7 @@ function finFooter(){
 
 
 function contenido($v){
-    include 'themes/mig/_content.php';
+    include 'themes/'.$v.'/_content.php';
 
   /*  global $casos;
     if((strlen(''.$v)>0)){

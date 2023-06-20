@@ -5,6 +5,7 @@ if(isset($_GET['nombre'])){
 ?>
 
 <? require 'config.php'; ?>
+<? contenido($theme)?>
 <?
 //Carga aleatoria de contenido
 /*

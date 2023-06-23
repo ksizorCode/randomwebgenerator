@@ -1,6 +1,5 @@
 <?php
-
-// Miguel
+// Laura
 //Array que  que almacena todos los datos
 
 $dato =[
@@ -20,8 +19,7 @@ $dato =[
             ['Cartelera','cartelera.php',0],
             ['facebook','https://facebook.com',1]
             ]
-    ];
-
+    ]
  /*   
 echo $dato['txt3'];
 echo $dato['img1'];

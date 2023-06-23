@@ -22,13 +22,13 @@
   </li>
 </ul>
 
-<aside>
+<!-- <aside>
   <ul>
     <li><a href="#">Cosas de aqui</a></li>
     <li><a href="#">Cosas de España</a></li>
     <li><a href="#">Cosas de Europa</a></li>
   </ul>
-</aside>
+</aside> -->
 
 <h3>Vamos a irnos de rama en rama</h3>
 
